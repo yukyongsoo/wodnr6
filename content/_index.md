@@ -68,7 +68,7 @@ approach:
         image: "/images/youth-lecture.jpg"
       - caption: "2023 찾아가는 다문화직업인 진로콘서트"
         image: "/images/career-concert-1.jpg"
-      - caption: "청소년 진로상담 부스 운영"
+      - caption: "청소년대상 소통 프로그램"
         image: "/images/career-concert-2.jpg"
   
   - number: "03"
