@@ -55,7 +55,7 @@ approach:
     gallery:
       - caption: "TCI 개발자 Robert Cloninger박사초청 심포지엄"
         image: "/images/cloninger-symposium.jpg"
-      - caption: "TCI심리검사를 활용한 가족소통강의의"
+      - caption: "TCI심리검사를 활용한 가족소통강의"
         image: "/images/tci-lecture-meeting.jpg"
       - caption: "커플/예비부부 대상 TCI기질검사"
         image: "/images/tci-materials.jpg"
@@ -73,7 +73,68 @@ approach:
   
   - number: "03"
     title: "비폭력 대화(NVC) 기반 소통 강의"
-    description: "커플, 부부, 부모—자녀,이 남겨주신 후기와 편지 내용입니다."
+    description: "커플, 부부, 부모—자녀, 조직 등 전반적인 인간관계에서 감정을 해치지 않으면서도 솔직하게 말하는 연습을 돕습니다. 갈등을 피하는 대화가 아니라, <em>관계를 지키는 대화</em>를 목표로 합니다."
+    gallery:
+      - caption: "동아리 NVC 소통 특강 활동"
+        image: "/images/nvc-2.jpg"
+      - caption: "마음이 통하는 우리 가족 대화법"
+        image: "/images/nvc-1.jpg"
+      - caption: "가족 소통 프로그램 활동"
+        image: "/images/nvc-3.jpg"
+  
+  - number: "04"
+    title: "대학원생 심리지원 프로그램"
+    description: "학업 스트레스, 관계, 진로 고민을 개별 문제가 아닌 삶의 맥락 속에서 통합적으로 다루며, 대학원생의 리듬과 회복에 초점을 둡니다."
+    gallery_wide: true
+    gallery:
+      - caption: "연구실이 아직도 빛나는 밤에 - 대학원생 힐링 라디오"
+        image: "/images/grad-radio.jpg"
+      - caption: "대학원 1년차에 알면 좋을 것들 - 신학기 특집방송"
+        image: "/images/grad-special.jpg"
+
+# Background Section
+background:
+  education:
+    - degree: "교육학박사"
+      institution: "명지대학교"
+    - degree: "교육학석사"
+      institution: "명지대학교"
+  
+  credentials:
+    - title: "상담심리사 2급"
+      issuer: "한국상담심리학회 제5806호"
+    - title: "청소년지도사 2급"
+      issuer: "여성가족부"
+  
+  experience:
+    current:
+      - "마인드카페 상담사"
+      - "위례 속편한 심리상담센터 레지던트"
+      - "㈜YATAV 메타버스 전문상담사&강사"
+    previous:
+      - "트로스트 전문상담사"
+      - "명지대학교 학생상담센터 전임연구원"
+      - "파주시청 청소년 고위기 통합사례관리사"
+  
+  publications:
+    - text: "청소년상담복지센터의 구조개편 및 기능 개선을 위한 연구"
+      source: "여성가족부, 2022"
+    - text: "대학생의 불안정 성인애착이 정서인식명확성을 매개로 스트레스 대처전략에 미치는 영향"
+      source: "한국심리학회지: 코칭 제6권 제2호"
+
+# What to Expect Section
+expect:
+  - "있는 그대로의 나를 존중받는 경험"
+  - "감정 인식과 감정 조절에 대한 이해"
+  - "나에게 필요한 심리 정보 맞춤형 정리"
+  - "관계 갈등을 덜 소모적으로 풀어내는 대화 방식"
+  - "불안과 우울에 대처하는 나만의 리듬 찾기"
+  - "약물치료 병행 시 컨디션 점검과 정서 지원"
+
+# Reviews Section
+reviews:
+  subtitle: "상담을 통해 남겨주신 이야기들"
+  note: "* 모든 내담자의 정보는 익명처리 됩니다. 아래는 저에게 남겨주신 후기와 편지 내용입니다."
   items:
     - text: "너무너무 친절하시고, 누가 이렇게 제 얘기를 아무 편견 없이 공감해주시며 들어준적이 처음이라 많이 감사했어요. 본인의 이야기까지 해주시며 저의 이야기를 힘들지않게 자연스럽게 이끌어주시고, 행복했던 상담이었어요. 처음 상담한 것과 마지막에 한 상담을 보니, 제 자신의 변화가 눈에 띌 정도예요. 혼자 울던 것도 정말 많이 줄었어요. 상담이 저를 정말 많이 치유해 준 것 같아 너무 고마운 마음 뿐입니다."
       highlight: true
