@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav-bar">
+    <div class="nav-logo">Jaewook Park</div>
+    <div class="nav-links">
+      {{ range .Params.nav }}
+      <a href="#{{ .id }}" class="nav-link">{{ .label }}</a>
+      {{ end }}
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="decorative-circle decorative-circle-1"></div>
+    <div class="decorative-circle decorative-circle-2"></div>
+    
+    <div class="hero-content fade-in">
+      <div class="profile-photo">
+        {{ if .Params.hero.profile_image }}
+        <img src="{{ .Params.hero.profile_image }}" alt="{{ .Params.hero.name }} 프로필 사진">
+        {{ else }}
+        <div class="profile-placeholder">프로필 사진</div>
+        {{ end }}
+      </div>
+      
+      <p class="hero-subtitle">{{ .Params.hero.subtitle }}</p>
+      
+      <h1 class="hero-title">
+        {{ .Params.hero.name }} <span class="hero-title-sub">{{ .Params.hero.name_sub }}</span>
+      </h1>
+      
+      <p class="hero-motto">"{{ .Params.hero.motto }}"</p>
+      
+      <p class="hero-description">{{ .Params.hero.description | safeHTML }}</p>
+      
+      <div class="hero-divider"></div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- About Section -->
+    <section id="about" class="section-card">
+      <h2 class="section-title">About</h2>
+      
+      <p class="section-text">{{ .Params.about.text1 | safeHTML }}</p>
+      <p class="section-text">{{ .Params.about.text2 }}</p>
+      <p class="section-text">{{ .Params.about.text3 }}</p>
+      
+      <div class="info-box">
+        <p class="info-text">{{ .Params.about.infobox }}</p>
+      </div>
+    </section>
+
+    <!-- Specialty Section -->
+    <section id="specialty" class="section-card">
+      <h2 class="section-title">Specialty</h2>
+      
+      <h3 class="specialty-subtitle">{{ .Params.specialty.subtitle }}</h3>
+      
+      <p class="section-text">{{ .Params.specialty.text1 }}</p>
+      <p class="section-text">{{ .Params.specialty.text2 | safeHTML }}</p>
+      
+      <div class="tag-container">
+        {{ range .Params.specialty.tags }}
+        <span class="tag">{{ . }}</span>
+        {{ end }}
+      </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section id="approach" class="section-card">
+      <h2 class="section-title">Approach</h2>
+      
+      {{ range .Params.approach }}
+      <div class="approach-card">
+        <h4 class="approach-title">{{ .number }}</h4>
+		<h4 class="approach-title">{{ .title }}</h4>
+		
+        <p class="approach-text">{{ .description | safeHTML }}</p>
+        
+        {{ $isWide := .gallery_wide }}
+        <div class="image-gallery{{ if $isWide }} image-gallery-2col{{ end }}">
+          {{ range .gallery }}
+          <div class="gallery-item{{ if $isWide }} gallery-item-wide{{ end }}" data-caption="{{ .caption }}">
+            {{ if .image }}
+            <img src="{{ .image }}" alt="{{ .caption }}" loading="lazy">
+            {{ else }}
+            <div class="image-placeholder">
+              📷<br>{{ .caption }}
+            </div>
+            {{ end }}
+            <div class="gallery-overlay">{{ .caption }}</div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </section>
+
+    <!-- Background Section -->
+    <section id="background" class="section-card">
+      <h2 class="section-title">Background</h2>
+      
+      <div class="background-grid">
+        <div class="background-column">
+          <h3 class="background-subtitle">Education</h3>
+          {{ range .Params.background.education }}
+          <div class="timeline-item">
+            <p class="timeline-title">{{ .degree }}</p>
+            <p class="timeline-subtitle">{{ .institution }}</p>
+          </div>
+          {{ end }}
+        </div>
+        
+        <div class="background-column">
+          <h3 class="background-subtitle">Credentials</h3>
+          {{ range .Params.background.credentials }}
+          <div class="timeline-item">
+            <p class="timeline-title">{{ .title }}</p>
+            <p class="timeline-subtitle">{{ .issuer }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      
+      <div class="experience-section">
+        <h3 class="background-subtitle">Experience</h3>
+        
+        <div class="experience-grid">
+          <div class="experience-column">
+            <p class="experience-label">현재</p>
+            <p class="experience-text">
+              {{ range $index, $item := .Params.background.experience.current }}
+              {{ $item }}{{ if ne $index (sub (len $.Params.background.experience.current) 1) }}<br>{{ end }}
+              {{ end }}
+            </p>
+          </div>
+          <div class="experience-column">
+            <p class="experience-label experience-label-prev">이전</p>
+            <p class="experience-text">
+              {{ range $index, $item := .Params.background.experience.previous }}
+              {{ $item }}{{ if ne $index (sub (len $.Params.background.experience.previous) 1) }}<br>{{ end }}
+              {{ end }}
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="publications-box">
+        <h3 class="background-subtitle">Publications</h3>
+        <p class="publications-text">
+          {{ range .Params.background.publications }}
+          • {{ .text }}
+          <span class="publications-ref"> — {{ .source }}</span>
+          {{ if not (eq . (index $.Params.background.publications (sub (len $.Params.background.publications) 1))) }}<br>{{ end }}
+          {{ end }}
+        </p>
+      </div>
+    </section>
+
+    <!-- What to Expect -->
+    <section class="section-card section-card-dark">
+      <h2 class="section-title section-title-light">What to Expect</h2>
+      
+      <div class="expect-grid">
+        {{ range .Params.expect }}
+        <div class="expect-item">{{ . }}</div>
+        {{ end }}
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section-card">
+      <h2 class="section-title">Reviews</h2>
+      
+      <p class="reviews-subtitle">{{ .Params.reviews.subtitle }}</p>
+      <p class="reviews-note">{{ .Params.reviews.note }}</p>
+      
+      <div class="reviews-container">
+        {{ range .Params.reviews.items }}
+        <div class="review-card{{ if .highlight }} review-card-highlight{{ end }}">
+          <p class="review-text">"{{ .text }}"</p>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <p class="contact-motto">{{ .Params.contact.motto }}</p>
+      <p class="contact-description">{{ .Params.contact.description }}</p>
+      
+      <div class="contact-divider"></div>
+      
+      <p class="contact-label">{{ .Params.contact.label }}</p>
+      <p class="contact-email">{{ .Params.contact.email }}</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-text">{{ .Params.footer.text }}</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" style="display: none;">
+    <img id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

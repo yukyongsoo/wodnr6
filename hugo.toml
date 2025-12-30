@@ -1,0 +1,15 @@
+baseURL = "/"
+languageCode = "ko-kr"
+title = "박재욱 심리상담사"
+
+# Taxonomy 비활성화 (경고 제거)
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "박재욱"
+  description = "심리상담사 박재욱의 포트폴리오"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
