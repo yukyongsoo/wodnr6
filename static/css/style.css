@@ -185,7 +185,7 @@ body {
 
 .hero-motto {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 24px;
+  font-size: 22px;
   font-style: italic;
   color: #5A5A5A;
   margin-bottom: 48px;
@@ -305,6 +305,7 @@ body {
   font-weight: 500;
   margin-bottom: 16px;
   color: #2D5A4A;
+  text-align: center;
 }
 
 .approach-text {
@@ -555,7 +556,7 @@ body {
 
 .contact-motto {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 26px;
+  font-size: 22px;
   color: #3D3D3D;
   margin-bottom: 16px;
   line-height: 1.6;
