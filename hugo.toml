@@ -1,4 +1,6 @@
-baseURL = "/"
+baseURL = "https://yukyongsoo.github.io/wodnr6/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = "ko-kr"
 title = "박재욱 심리상담사"
 
