@@ -96,9 +96,9 @@ approach:
 background:
   education:
     - degree: "교육학박사"
-      institution: "명지대학교"
+      institution: "명지대학교 청소년지도학과 심리상담전공"
     - degree: "교육학석사"
-      institution: "명지대학교"
+      institution: "명지대학교 청소년지도학과 심리상담전공"
   
   credentials:
     - title: "상담심리사 2급"
@@ -109,7 +109,7 @@ background:
   experience:
     current:
       - "마인드카페 상담사"
-      - "위례 속편한 심리상담센터 레지던트"
+      - "위례 속편한 심리상담센터 상담사"
       - "㈜YATAV 메타버스 전문상담사&강사"
     previous:
       - "트로스트 전문상담사"
@@ -118,7 +118,7 @@ background:
   
   publications:
     - text: "청소년상담복지센터의 구조개편 및 기능 개선을 위한 연구"
-      source: "여성가족부, 2022"
+      source: "여성가족부"
     - text: "대학생의 불안정 성인애착이 정서인식명확성을 매개로 스트레스 대처전략에 미치는 영향"
       source: "한국심리학회지: 코칭 제6권 제2호"
 
