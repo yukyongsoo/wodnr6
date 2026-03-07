@@ -83,8 +83,8 @@ approach:
         image: "/images/nvc-3.jpg"
   
   - number: "04"
-    title: "대학원생 심리지원 프로그램"
-    description: "학업 스트레스, 관계, 진로 고민을 개별 문제가 아닌 삶의 맥락 속에서 통합적으로 다루며, 대학원생의 리듬과 회복에 초점을 둡니다."
+    title: "대학(원)생 심리지원 프로그램"
+    description: "학업 스트레스, 관계, 진로 고민을 개별 문제가 아닌 삶의 맥락 속에서 통합적으로 다루며, 대학(원)생의 리듬과 회복에 초점을 둡니다."
     gallery_wide: true
     gallery:
       - caption: "연구실이 아직도 빛나는 밤에 - 대학원생 힐링 라디오"
@@ -108,6 +108,7 @@ background:
   
   experience:
     current:
+      - "명지대학교 미디어휴먼라이프대학 청소년지도학전공 객원교수"
       - "마인드카페 상담사"
       - "위례 속편한 심리상담센터 상담사"
       - "㈜YATAV 메타버스 전문상담사&강사"
@@ -163,8 +164,8 @@ reviews:
 contact:
   motto: "연습은 평가의 대상이 아닙니다."
   description: "나를 돌보는 연습, 함께 해봐요."
-  label: "협업 문의"
-  email: "wodnr6@naver.com"
+  label: "개인상담·심리검사 및 강연 문의는"
+  email: "wodnr6@naver.com / 카카오톡 woogieberg"
 
 # Footer
 footer:
