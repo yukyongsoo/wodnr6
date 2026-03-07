@@ -87,6 +87,8 @@ approach:
     description: "학업 스트레스, 관계, 진로 고민을 개별 문제가 아닌 삶의 맥락 속에서 통합적으로 다루며, 대학(원)생의 리듬과 회복에 초점을 둡니다."
     gallery_wide: true
     gallery:
+      - caption: "대학(원)생을 위한 마음건강웨비나 진행"
+        image: "/images/webinar.jpg"
       - caption: "연구실이 아직도 빛나는 밤에 - 대학원생 힐링 라디오"
         image: "/images/grad-radio.jpg"
       - caption: "대학원 1년차에 알면 좋을 것들 - 신학기 특집방송"
