@@ -61,7 +61,21 @@ const lightboxImg = document.getElementById('lightbox-img');
 const lightboxCaption = document.getElementById('lightbox-caption');
 
 galleryItems.forEach(item => {
-  item.addEventListener('click', function() {
+  item.addEventListener('click', function(e) {
+    // If it has 'no-lightbox' class, don't open lightbox
+    if (this.classList.contains('no-lightbox')) {
+      e.stopPropagation();
+      return;
+    }
+    
+    // If it's a link (anchor tag), let it navigate
+    if (this.tagName.toLowerCase() === 'a' && this.getAttribute('href')) {
+      return;
+    }
+    
+    e.preventDefault();
+    e.stopPropagation();
+    
     const caption = this.getAttribute('data-caption');
     const img = this.querySelector('img');
     
@@ -88,8 +102,8 @@ lightbox.addEventListener('click', function() {
   document.body.style.overflow = 'auto';
 });
 
-// Prevent default on hash links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// Prevent default on hash links (except for links with no-lightbox)
+document.querySelectorAll('a[href^="#"]:not(.no-lightbox)').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
     const target = document.querySelector(this.getAttribute('href'));

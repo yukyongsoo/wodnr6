@@ -93,7 +93,11 @@
         {{ $isWide := .gallery_wide }}
         <div class="image-gallery{{ if $isWide }} image-gallery-2col{{ end }}">
           {{ range .gallery }}
+          {{ if .link }}
+          <a href="{{ .link }}" target="_blank" class="gallery-item no-lightbox{{ if $isWide }} gallery-item-wide{{ end }}" data-caption="{{ .caption }}">
+          {{ else }}
           <div class="gallery-item{{ if $isWide }} gallery-item-wide{{ end }}" data-caption="{{ .caption }}">
+          {{ end }}
             {{ if .image }}
             <img src="{{ .image }}" alt="{{ .caption }}" loading="lazy">
             {{ else }}
@@ -102,7 +106,11 @@
             </div>
             {{ end }}
             <div class="gallery-overlay">{{ .caption }}</div>
+          {{ if .link }}
+          </a>
+          {{ else }}
           </div>
+          {{ end }}
           {{ end }}
         </div>
       </div>
@@ -141,19 +149,19 @@
         <div class="experience-grid">
           <div class="experience-column">
             <p class="experience-label">현재</p>
-            <p class="experience-text">
-              {{ range $index, $item := .Params.background.experience.current }}
-              {{ $item }}{{ if ne $index (sub (len $.Params.background.experience.current) 1) }}<br>{{ end }}
-              {{ end }}
-            </p>
+            <div class="experience-text">
+              {{ range $index, $item := .Params.background.experience.current -}}
+              <div class="experience-item">{{ $item | safeHTML }}</div>
+              {{- end }}
+            </div>
           </div>
           <div class="experience-column">
             <p class="experience-label experience-label-prev">이전</p>
-            <p class="experience-text">
-              {{ range $index, $item := .Params.background.experience.previous }}
-              {{ $item }}{{ if ne $index (sub (len $.Params.background.experience.previous) 1) }}<br>{{ end }}
-              {{ end }}
-            </p>
+            <div class="experience-text">
+              {{ range $index, $item := .Params.background.experience.previous -}}
+              <div class="experience-item">{{ $item | safeHTML }}</div>
+              {{- end }}
+            </div>
           </div>
         </div>
       </div>
@@ -205,7 +213,7 @@
       <div class="contact-divider"></div>
       
       <p class="contact-label">{{ .Params.contact.label }}</p>
-      <p class="contact-email">{{ .Params.contact.email }}</p>
+      <p class="contact-email">{{ .Params.contact.email | safeHTML }}</p>
     </section>
   </main>
 

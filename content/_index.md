@@ -85,14 +85,16 @@ approach:
   - number: "04"
     title: "대학(원)생 심리지원 프로그램"
     description: "학업 스트레스, 관계, 진로 고민을 개별 문제가 아닌 삶의 맥락 속에서 통합적으로 다루며, 대학(원)생의 리듬과 회복에 초점을 둡니다."
-    gallery_wide: true
     gallery:
       - caption: "대학(원)생을 위한 마음건강웨비나 진행"
         image: "/images/webinar.jpg"
+        link: "https://woogieberg.liveklass.com/classes/288418?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAQYofdleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAae9N1HK7-oz-jaRENl88gOiLFQpOjBEBuNNyEOr3ZTOpeAoKzUUuOZa13El9w_aem_5qrpXjjR5My2uLwPmcvjSA"
       - caption: "연구실이 아직도 빛나는 밤에 - 대학원생 힐링 라디오"
         image: "/images/grad-radio.jpg"
+        link: "https://youtube.com/live/Cx0oYUq2Pi4?si=FOUfzjYQ1pOe6CPB"
       - caption: "대학원 1년차에 알면 좋을 것들 - 신학기 특집방송"
         image: "/images/grad-special.jpg"
+        link: "https://youtube.com/live/9czKbjjGLJI?si=K1_-SJgN2iEsUy3O"
 
 # Background Section
 background:
@@ -110,8 +112,8 @@ background:
   
   experience:
     current:
-      - "명지대학교 미디어휴먼라이프대학 청소년지도학전공 객원교수"
-      - "마인드카페 상담사"
+      - "명지대학교 미디어휴먼라이프대학<span class='small-text'>청소년지도학전공 객원교수</span>"
+      - "마인드카페 상담사 <a href=\"https://www.mindcafe.co.kr/pc/counselor?id=2331039\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;background:#3D7A64;color:#fff;text-decoration:none;border-radius:6px;margin-left:8px;vertical-align:middle;transition:background 0.15s,transform 0.12s\" onmouseover=\"this.style.background='#2f5e4c';this.style.transform='translateY(-1px)'\" onmouseout=\"this.style.background='#3D7A64';this.style.transform='translateY(0)'\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><polyline points=\"15 3 21 3 21 9\"/><line x1=\"10\" y1=\"14\" x2=\"21\" y2=\"3\"/></svg></a>"
       - "위례 속편한 심리상담센터 상담사"
       - "㈜YATAV 메타버스 전문상담사&강사"
     previous:
@@ -167,7 +169,7 @@ contact:
   motto: "연습은 평가의 대상이 아닙니다."
   description: "나를 돌보는 연습, 함께 해봐요."
   label: "개인상담·심리검사 및 강연 문의는"
-  email: "wodnr6@naver.com / 카카오톡 woogieberg"
+  email: "wodnr6@naver.com / <img src=\"/images/kakao.png\" class=\"kakao-icon\" alt=\"카카오톡\">woogieberg"
 
 # Footer
 footer:
