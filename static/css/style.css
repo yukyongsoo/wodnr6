@@ -481,7 +481,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: inherit;
+  color: #5A5A5A;
   text-decoration: none;
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-weight: 500;
