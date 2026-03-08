@@ -477,6 +477,28 @@ body {
 .experience-item:last-child {
   margin-bottom: 0;
 }
+.experience-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  opacity: 0.9;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.experience-link:hover {
+  opacity: 0.6;
+  transform: translateY(-1px);
+}
+
+.experience-link svg {
+  position: relative;
+  top: 1px;
+  flex-shrink: 0;
+}
 
 .experience-text .small-text {
   font-size: 13px;
