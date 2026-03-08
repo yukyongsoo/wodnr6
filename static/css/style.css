@@ -485,7 +485,6 @@ body {
   text-decoration: none;
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-weight: 400;
-  opacity: 0.9;
   transition: opacity 0.15s, transform 0.15s;
 }
 
