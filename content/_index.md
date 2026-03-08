@@ -169,8 +169,8 @@ contact:
   motto: "연습은 평가의 대상이 아닙니다."
   description: "나를 돌보는 연습, 함께 해봐요."
   label: "개인상담·심리검사 및 강연 문의는"
-  email: "wodnr6@naver.com
-  kakako: woogieberg"
+  email: "wodnr6@naver.com"
+  kakako: "woogieberg"
 
 # Footer
 footer:
