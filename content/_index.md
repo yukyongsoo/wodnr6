@@ -174,5 +174,5 @@ contact:
 
 # Footer
 footer:
-  text: "© 2026 박재욱 · 심리상담사"
+  text: "© 2025 박재욱 · 심리상담사"
 ---
