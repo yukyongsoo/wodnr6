@@ -113,7 +113,7 @@ background:
   experience:
     current:
       - "명지대학교 미디어휴먼라이프대학<span class='small-text'>청소년지도학전공 객원교수</span>"
-      - "마인드카페 상담사 <a href=\"https://www.mindcafe.co.kr/pc/counselor?id=2331039\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;background:#3D7A64;color:#fff;text-decoration:none;border-radius:6px;margin-left:8px;vertical-align:middle;transition:background 0.15s,transform 0.12s\" onmouseover=\"this.style.background='#2f5e4c';this.style.transform='translateY(-1px)'\" onmouseout=\"this.style.background='#3D7A64';this.style.transform='translateY(0)'\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><polyline points=\"15 3 21 3 21 9\"/><line x1=\"10\" y1=\"14\" x2=\"21\" y2=\"3\"/></svg></a>"
+      - "마인드카페 상담사"
       - "위례 속편한 심리상담센터 상담사"
       - "㈜YATAV 메타버스 전문상담사&강사"
     previous:
