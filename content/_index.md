@@ -170,7 +170,7 @@ contact:
   description: "나를 돌보는 연습, 함께 해봐요."
   label: "개인상담·심리검사 및 강연 문의는"
   email: "wodnr6@naver.com"
-  kakako: "woogieberg"
+  kakao: "woogieberg"
 
 # Footer
 footer:
