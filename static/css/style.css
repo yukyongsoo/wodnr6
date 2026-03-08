@@ -693,7 +693,7 @@ body {
   
   .nav-links {
     gap: 16px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
   }
   
