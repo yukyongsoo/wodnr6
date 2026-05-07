@@ -3,7 +3,7 @@ title: "박재욱 심리상담사"
 
 # Hero Section
 hero:
-  profile_image: "/images/profile.jpg"  # 프로필 사진 경로
+  profile_image: "/images/profile_new.jpg"  # 프로필 사진 경로
   subtitle: "Psychological Counselor · Researcher"
   name: "박재욱"
   name_sub: "심리상담사"
