@@ -655,7 +655,7 @@ body {
 }
 
 .contact-divider {
-  width: 72px;
+  width: 100px;
   height: 1px;
 
   background: rgba(125,120,113,0.25);
@@ -703,7 +703,7 @@ body {
   }
 
   .contact-motto {
-    font-size: 24px;
+    font-size: 23px;
   }
 
   .contact-description {
