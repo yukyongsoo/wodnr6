@@ -577,46 +577,111 @@ body {
 .contact-section {
   position: relative;
   overflow: hidden;
+
   min-height: 100vh;
+
   display: flex;
   align-items: center;
-  /*text-align: center;*/
-  padding: 80px 0;
+
+  padding: 120px 0;
+
+  background: #FFFDF6;
 }
 
-.contact-eyebrow{
-  font-family:'Cormorant Garamond', serif;
-  font-size:24px;
-  letter-spacing:0.08em;
-  color:#7D7871;
-  margin-bottom:28px;
+/* 대각선 자연광 */
+.contact-section::before {
+  content: '';
+
+  position: absolute;
+  z-index: 1;
+
+  top: -25%;
+  left: 18%;
+
+  width: 42vw;
+  height: 150vh;
+
+  transform: rotate(32deg);
+
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0.42) 42%,
+    rgba(255,255,255,0.78) 50%,
+    rgba(255,255,255,0.42) 58%,
+    rgba(255,255,255,0) 100%
+  );
+
+  filter: blur(22px);
+
+  opacity: 0.7;
+
+  pointer-events: none;
+}
+
+/* 콘텐츠 래퍼 */
+.contact-content {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+
+  padding-left: 12vw;
+  padding-right: 12vw;
+
+  max-width: 1600px;
+}
+
+.contact-eyebrow {
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 24px;
+  letter-spacing: 0.08em;
+
+  color: #7D7871;
+
+  margin-bottom: 28px;
 }
 
 .contact-motto {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Noto Serif KR', serif;
+
   font-size: clamp(52px, 5vw, 92px);
+
   line-height: 1.45;
   letter-spacing: -0.04em;
+
   font-weight: 500;
+
   color: #2E2E2E;
-  margin-bottom: 48px;
-  line-height: 1.6;
+
+  margin-bottom: 56px;
+
+  max-width: 1200px;
 }
 
 .contact-description {
+  font-family: 'Noto Serif KR', serif;
+
   font-size: 28px;
   line-height: 1.9;
+
   font-weight: 300;
-  color: #7D7871;
+
+  color: #2E2E2E;
+
   opacity: 0.82;
-  margin-bottom: 24px;
+
+  margin-bottom: 32px;
 }
 
 .contact-divider {
-  width: 60px;
+  width: 72px;
   height: 1px;
-  background: #FFDDC1;
-  margin: 40px auto;
+
+  background: rgba(125, 120, 113, 0.25);
+
+  margin-top: 48px;
 }
 
 .contact-label {
@@ -628,17 +693,21 @@ body {
 .contact-email {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 12px;
+
+  margin-top: 56px;
 }
 
 .contact-row {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+
   font-family: 'Cormorant Garamond', Georgia, serif;
+
   font-size: 17px;
   font-weight: 500;
+
   color: #7D7871;
 }
 
