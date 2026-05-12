@@ -595,19 +595,12 @@ body {
   display: inline-block; /* 내용물 너비만큼만 박스 크기 설정 */
   text-align: left;      /* 박스 내부의 모든 글자는 왼쪽 정렬 */
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
-
-  /* 1. 희미한 배경 (0.4는 투명도, 취향에 따라 0.2~0.6 사이 조절) */
-  background: rgba(0, 0, 0, 0.4);
-  
-  /* 2. 테두리를 블러처리한 것처럼 보이게 하는 그림자 */
-  /* 바깥쪽으로 20px만큼 퍼지는 그림자를 주어 경계를 흐릿하게 함 */
-  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.4);  
-  
-  /* 3. 박스 안쪽 여백 (글자가 배경 끝에 붙지 않게) */
   padding: 20px;
-  
-  /* 4. 모서리를 약간 둥글게 하면 블러와 더 잘 어울림 */
-  border-radius: 10px;
+
+  background: rgba(253, 250, 243, 0.4);
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  border: 1px solid #FDFAF3;
 }
 
 /* PRACTICE, NOT JUDGMENT */
@@ -655,12 +648,12 @@ body {
 }
 
 .contact-divider {
-  width: 200px;
+  width: 100px;
   height: 1px;
 
   background: rgba(125,120,113,0.25);
 
-  margin: 0 auto 40px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
+  margin: 0 auto 100px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
 }
 
 .contact-label {
