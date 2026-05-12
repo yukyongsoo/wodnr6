@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+:root {
+  --mobile-nav-height: 140px;
+}
+
 body {
   min-height: 100vh;
   background-color: #FAF7F0;
@@ -686,6 +690,10 @@ body {
 
 /* 모바일 */
 @media (max-width: 768px) {
+  .hero-section {
+    padding-top: calc(var(--mobile-nav-height) + 40px);
+  }
+  
   .contact-section {
     text-align: center;
   }
