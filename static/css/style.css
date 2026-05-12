@@ -687,6 +687,12 @@ body {
 
 /* 모바일 */
 @media (max-width: 768px) {
+  .hero-description {
+    max-width: 260px;
+    margin: 0 auto;
+    line-height: 2;
+  }
+  
   .contact-section {
     text-align: center;
   }
