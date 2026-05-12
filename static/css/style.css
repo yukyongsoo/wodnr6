@@ -698,7 +698,7 @@ body {
   }
 
   .contact-motto {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .contact-description {
@@ -713,7 +713,7 @@ body {
 .footer {
   text-align: center;
   padding: 40px;
-  border-top: 1px solid rgba(125, 120, 113, 0.3);
+  border-top: 1px solid rgba(125, 120, 113, 0.2);
   background: #FAF7F0;
 }
 
