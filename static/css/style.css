@@ -623,7 +623,7 @@ body {
   font-size: 28px;
   line-height: 1.7;
   letter-spacing: -0.02em;
-  font-weight: 500;
+  font-weight: 400;
   color: #2E2E2E;
   margin-bottom: 10px;
   display: block; /* 줄바꿈을 위해 block 설정 */
@@ -634,7 +634,7 @@ body {
   font-family: 'Noto Serif KR', serif;
   font-size: 16px;
   line-height: 1.7;
-  font-weight: 300;
+  font-weight: 200;
   color: #2E2E2E;
   opacity: 0.82;
   display: block; /* 한 줄을 다 차지하게 해서 왼쪽 정렬이 먹히게 함 */
