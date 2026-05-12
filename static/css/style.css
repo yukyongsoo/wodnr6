@@ -575,21 +575,40 @@ body {
 }
 
 .contact-section {
-  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  /*text-align: center;*/
   padding: 80px 0;
+}
+
+.contact-eyebrow{
+  font-family:'Cormorant Garamond', serif;
+  font-size:24px;
+  letter-spacing:0.08em;
+  color:#7D7871;
+  margin-bottom:28px;
 }
 
 .contact-motto {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
+  font-size: clamp(52px, 5vw, 92px);
+  line-height: 1.45;
+  letter-spacing: -0.04em;
+  font-weight: 500;
   color: #2E2E2E;
-  margin-bottom: 16px;
+  margin-bottom: 48px;
   line-height: 1.6;
 }
 
 .contact-description {
-  font-size: 18px;
+  font-size: 28px;
+  line-height: 1.9;
+  font-weight: 300;
   color: #7D7871;
+  opacity: 0.82;
   margin-bottom: 24px;
 }
 
