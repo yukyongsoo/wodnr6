@@ -657,6 +657,7 @@ body {
 .contact-row {
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 12px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 15px;
