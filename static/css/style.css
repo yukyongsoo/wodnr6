@@ -597,7 +597,7 @@ body {
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
   padding: 55px 50px;
 
-  background: linear-gradient(135deg, #FFFCF5 0%, #F7F4EE 80%);
+  background: linear-gradient(135deg, #FFFCF5 0%, #F7F4EE 90%);
   /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
@@ -660,7 +660,7 @@ body {
 
 .contact-label {
   font-size: 15px;
-  line-height: 1.8;
+  line-height: 2;
   color: #7D7871;
   margin-bottom: 0px;
 }
@@ -692,8 +692,8 @@ body {
   
   .contact-content,
   .contact-info {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .contact-motto {
