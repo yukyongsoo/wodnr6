@@ -42,7 +42,7 @@ body {
   right: 0;
   padding: 20px 48px;
   margin-bottom: 10px;
-  background: rgba(246, 242, 232, 0.95);
+  background: rgba(252, 248, 238, 0.95);
   backdrop-filter: blur(10px);
   z-index: 100;
   display: flex;
@@ -603,11 +603,11 @@ body {
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
   padding: 55px 50px;
 
-  background: linear-gradient(135deg, #FFFBF0 0%, #F3EFE6 90%);
+  background: linear-gradient(135deg, #FFFBF0 0%, #FCF8EE 90%);
   /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  border: 1px solid #F6F2E8;
+  border: 1px solid #FCF8EE;
 }
 
 /* PRACTICE, NOT JUDGMENT */
@@ -729,7 +729,7 @@ body {
   text-align: center;
   padding: 40px;
   border-top: 1px solid rgba(163, 149, 136, 0.15);
-  background: #F6F2E8;
+  background: #FCF8EE;
 }
 
 .footer-text {
