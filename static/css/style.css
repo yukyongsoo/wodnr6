@@ -54,7 +54,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
   font-weight: 500;
-  color: #FFDDC1;
+  color: #7D7871;
   letter-spacing: 1px;
 }
 
@@ -162,7 +162,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 15px;
   letter-spacing: 3px;
-  color: #FFDDC1;
+  color: #7D7871;
   margin-bottom: 24px;
   text-transform: uppercase;
 }
@@ -228,7 +228,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 14px;
   letter-spacing: 2px;
-  color: #FFDDC1;
+  color: #7D7871;
   margin-bottom: 32px;
   text-transform: uppercase;
 }
@@ -276,7 +276,7 @@ body {
   display: inline-block;
   padding: 6px 14px;
   background: #FDE2E4;
-  color: #FFDDC1;
+  color: #7D7871;
   font-size: 13px;
   border-radius: 20px;
 }
@@ -298,7 +298,7 @@ body {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 16px;
-  color: #FFDDC1;
+  color: #7D7871;
   text-align: center;
 }
 
@@ -445,7 +445,7 @@ body {
 
 .experience-label {
   font-size: 12px;
-  color: #FFDDC1;
+  color: #7D7871;
   font-weight: 500;
   margin-bottom: 12px;
 }
@@ -531,7 +531,7 @@ body {
 
 .expect-item {
   padding: 16px 20px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.5);
   border-radius: 2px;
   font-size: 14px;
   line-height: 1.6;
@@ -620,7 +620,7 @@ body {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: 17px;
   font-weight: 500;
-  color: #FFDDC1;
+  color: #7D7871;
 }
 
 .kakao-icon {
