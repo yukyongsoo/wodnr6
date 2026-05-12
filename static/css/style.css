@@ -595,9 +595,9 @@ body {
   display: inline-block; /* 내용물 너비만큼만 박스 크기 설정 */
   text-align: left;      /* 박스 내부의 모든 글자는 왼쪽 정렬 */
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
-  padding: 50px 45px;
+  padding: 55px 50px;
 
-  background: linear-gradient(135deg, #FDFAF3 0%, #FAF7F0 100%);
+  background: linear-gradient(135deg, #FFFCF5 0%, #F7F4EE 100%);
   /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
@@ -655,7 +655,7 @@ body {
 
   background: rgba(125,120,113,0.25);
 
-  margin: 0 auto 100px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
+  margin: 0 auto 200px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
 }
 
 .contact-label {
