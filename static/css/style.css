@@ -595,7 +595,7 @@ body {
   display: inline-block; /* 내용물 너비만큼만 박스 크기 설정 */
   text-align: left;      /* 박스 내부의 모든 글자는 왼쪽 정렬 */
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
-  padding: 50px 40px;
+  padding: 50px 45px;
 
   background: rgba(253, 250, 243, 0.4);
   border-radius: 2px;
@@ -614,7 +614,7 @@ body {
   display: inline-block;      /* 밑줄이 글자 길이만큼만 생기게 함 */
   border-bottom: 0.7px solid #7D7871; /* 밑줄 두께와 색상 */
   padding-bottom: 5px;        /* 문구와 밑줄 사이의 여백 */
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 /* 메인 카피 */
@@ -625,14 +625,14 @@ body {
   letter-spacing: -0.02em;
   font-weight: 400;
   color: #2E2E2E;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   display: block; /* 줄바꿈을 위해 block 설정 */
 }
 
 /* 서브 카피 */
 .contact-description {
   font-family: 'Noto Serif KR', serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7;
   font-weight: 200;
   color: #2E2E2E;
