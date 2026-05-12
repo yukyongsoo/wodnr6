@@ -653,7 +653,7 @@ body {
   width: 100px;
   height: 1px;
 
-  background: rgba(253,226,228,0.25);
+  background: rgba(253,226,228,1);
 
   margin: 0 auto 150px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
 }
@@ -713,7 +713,7 @@ body {
 .footer {
   text-align: center;
   padding: 40px;
-  border-top: 1px solid #7D7871;
+  border-top: 1px solid rgba(125, 120, 113, 0.3);
   background: #FAF7F0;
 }
 
