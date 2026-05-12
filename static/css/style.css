@@ -582,10 +582,10 @@ body {
 
   padding: 140px 0;
 
-  background: #FFFDF6;
+  /*background: #FFFDF6;*/
 }
 
-/* 대각선 빛 */
+/* 대각선 빛 
 .contact-section::before {
   content: '';
 
@@ -609,7 +609,7 @@ body {
   transform: rotate(-12deg);
   pointer-events: none;
 }
-
+*/
 .contact-content,
 .contact-info {
   position: relative;
@@ -815,16 +815,15 @@ body {
 .light-effect-text {
   background: linear-gradient(
     110deg, 
-    rgba(255, 255, 255, 0) 30%, 
-    rgba(255, 255, 255, 0.8) 50%, 
-    rgba(255, 255, 255, 0) 70%
-  );
-  background-size: 200% 100%;
+    #2E2E2E 25%, 
+    #ffffff 50%, 
+    #2E2E2E 75%
+  );  
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; /* 글자색을 투명하게 해야 배경 그라데이션이 보임 */
+  background-size: 100% 100%;
   display: inline-block;
-  animation: shine 4s infinite linear;
   
   /* 글자가 안 보일 경우를 대비한 기본 색상 (그라데이션 미지원 브라우저용) */
   background-color: #2E2E2E; 
