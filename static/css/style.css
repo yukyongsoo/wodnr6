@@ -621,7 +621,7 @@ body {
 .contact-motto {
   font-family: 'Noto Serif KR', serif;
   font-size: 28px;
-  line-height: 1.2;
+  line-height: 1.7;
   letter-spacing: -0.02em;
   font-weight: 500;
   color: #2E2E2E;
@@ -633,7 +633,7 @@ body {
 .contact-description {
   font-family: 'Noto Serif KR', serif;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.7;
   font-weight: 300;
   color: #2E2E2E;
   opacity: 0.82;
@@ -696,11 +696,11 @@ body {
   }
 
   .contact-motto {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .contact-description {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .contact-row {
