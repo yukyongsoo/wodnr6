@@ -100,7 +100,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 120px 48px 80px;
-  background: linear-gradient(180deg, #F6F2E8 0%, #F6F2E8 100%);
+  background: linear-gradient(180deg, #FCF8EE 0%, #FCF8EE 100%);
   position: relative;
   overflow: hidden;
 }
@@ -603,11 +603,11 @@ body {
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
   padding: 55px 50px;
 
-  background: linear-gradient(135deg, #FFFBF0 0%, #FCF8EE 90%);
+  background: linear-gradient(135deg, #FFFBF1 0%, #FCF8EE 90%);
   /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  border: 1px solid #FCF8EE;
+  border: 1px solid #FFFBF1;
 }
 
 /* PRACTICE, NOT JUDGMENT */
