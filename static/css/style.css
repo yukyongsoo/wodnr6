@@ -596,10 +596,15 @@ body {
 /* PRACTICE, NOT JUDGMENT */
 .contact-eyebrow {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.12em;
   color: #7D7871;
   margin-bottom: 20px;
+
+  /* 밑줄 추가 및 여백 설정 */
+  display: inline-block;      /* 밑줄이 글자 길이만큼만 생기게 함 */
+  border-bottom: 1px solid #7D7871; /* 밑줄 두께와 색상 */
+  padding-bottom: 8px;        /* 3번 질문: 문구와 밑줄 사이의 여백 */
 }
 
 /* 메인 카피 */
@@ -644,7 +649,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #7D7871;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 /* 이메일 / 카카오 */
