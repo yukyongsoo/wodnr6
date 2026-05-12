@@ -597,12 +597,18 @@ body {
   font-size: 8px;
   letter-spacing: 0.12em;
   color: #7D7871;
-  margin-bottom: 20px;
 
   /* 밑줄 추가 및 여백 설정 */
   display: inline-block;      /* 밑줄이 글자 길이만큼만 생기게 함 */
   border-bottom: 0.7px solid #7D7871; /* 밑줄 두께와 색상 */
   padding-bottom: 5px;        /* 문구와 밑줄 사이의 여백 */
+
+  text-align: left;
+  display: block; /* 한 줄을 다 차지하게 해서 왼쪽 정렬이 먹히게 함 */
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 /* 메인 카피 */
@@ -637,6 +643,12 @@ body {
   font-weight: 300;
   color: #2E2E2E;
   opacity: 0.82;
+
+  text-align: left;
+  display: block; /* 한 줄을 다 차지하게 해서 왼쪽 정렬이 먹히게 함 */
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 연락 영역 */
