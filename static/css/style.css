@@ -655,14 +655,14 @@ body {
 
   background: rgba(253,226,228,1);
 
-  margin: 0 auto 150px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
+  margin: 0 auto 100px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
 }
 
 .contact-label {
   font-size: 15px;
   line-height: 1.8;
   color: #7D7871;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 /* 이메일 / 카카오 */
@@ -687,7 +687,6 @@ body {
 /* 모바일 */
 @media (max-width: 768px) {
   .contact-section {
-    /*padding: 120px 0;*/
     text-align: center;
   }
   
@@ -697,8 +696,12 @@ body {
     padding-right: 24px;
   }
 
+  .contact-text-group {
+  margin: 0 0;
+  }
+
   .contact-motto {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .contact-description {
@@ -713,7 +716,7 @@ body {
 .footer {
   text-align: center;
   padding: 40px;
-  border-top: 1px solid rgba(125, 120, 113, 0.2);
+  border-top: 1px solid rgba(125, 120, 113, 0.1);
   background: #FAF7F0;
 }
 
