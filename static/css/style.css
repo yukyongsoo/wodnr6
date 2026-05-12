@@ -345,7 +345,7 @@ body {
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;  /* cover → contain으로 변경 */
   transition: transform 0.4s ease;
 }
 
@@ -497,4 +497,318 @@ body {
 }
 
 .experience-text .small-text {
-  font-size: 13
+  font-size: 13px;
+  display: block;
+  color: #CDB9A6;
+}
+
+.publications-box {
+  margin-top: 48px;
+  padding: 24px;
+  background: #FFFDF6;
+  border-radius: 2px;
+}
+
+.publications-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #9B8F82;
+}
+
+.publications-ref {
+  font-size: 13px;
+  color: #CDB9A6;
+}
+
+.section-card-dark {
+  background: linear-gradient(135deg, #F1DCD0 0%, #F1DCD0 100%);
+  color: #3B3A3C;
+}
+
+.section-title-light {
+  color: #9B8F82;
+}
+
+.expect-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.expect-item {
+  padding: 16px 20px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.reviews-subtitle {
+  font-size: 15px;
+  color: #9B8F82;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.reviews-note {
+  font-size: 13px;
+  color: #CDB9A6;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews-container {
+  display: grid;
+  gap: 20px;
+}
+
+.review-card {
+  padding: 28px 32px;
+  background: #FFFDF6;
+  border-radius: 2px;
+  border-left: 3px solid #E8D7C2;
+}
+
+.review-card-highlight {
+  border-left: 3px solid #F1DCD0;
+}
+
+.review-text {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #3B3A3C;
+}
+
+.contact-section {
+  position: relative;
+  overflow: hidden;
+  min-height: auto;
+  padding: 80px 0;
+}
+
+.contact-content,
+.contact-info {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+
+.contact-text-group {
+  display: inline-block; /* 내용물 너비만큼만 박스 크기 설정 */
+  text-align: left;      /* 박스 내부의 모든 글자는 왼쪽 정렬 */
+  margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
+  padding: 55px 50px;
+
+  background: linear-gradient(135deg, #FFFBF1 0%, #FCF8EE 90%);
+  /*background: rgba(253, 250, 243, 0.4);*/
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  border: 1px solid #FFFBF1;
+}
+
+/* PRACTICE, NOT JUDGMENT */
+.contact-eyebrow {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 8px;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  color: #9B8F82;
+
+  /* 밑줄 추가 및 여백 설정 */
+  display: inline-block;      /* 밑줄이 글자 길이만큼만 생기게 함 */
+  border-bottom: 0.7px solid #9B8F82; /* 밑줄 두께와 색상 */
+  padding-bottom: 5px;        /* 문구와 밑줄 사이의 여백 */
+  margin-bottom: 15px;
+}
+
+/* 메인 카피 */
+.contact-motto {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 28px;
+  line-height: 1.7;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  color: #3B3A3C;
+  margin-bottom: 21px;
+  display: block; /* 줄바꿈을 위해 block 설정 */
+}
+
+/* 서브 카피 */
+.contact-description {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 200;
+  color: #3B3A3C;
+  opacity: 0.82;
+  display: block; /* 한 줄을 다 차지하게 해서 왼쪽 정렬이 먹히게 함 */
+}
+
+/* 연락 영역 */
+.contact-info {
+  margin-top: 100px;
+  align-items: center; /* 가로 방향 가운데 정렬 */
+  text-align: center;  /* 텍스트 내용 가운데 정렬 */
+}
+
+.contact-divider {
+  width: 100px;
+  height: 1px;
+
+  background: #E8D7C2;
+
+  margin: 0 auto 100px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
+}
+
+.contact-label {
+  font-size: 15px;
+  line-height: 2;
+  color: #9B8F82;
+  margin-bottom: 10px;
+}
+
+/* 이메일 / 카카오 */
+.contact-email {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  color: #9B8F82;
+  width: 100%;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .hero-description {
+    max-width: 260px;
+    margin: 0 auto;
+    line-height: 2;
+  }
+  
+  .contact-section {
+    text-align: center;
+  }
+  
+  .contact-content,
+  .contact-info {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .contact-text-group {
+  padding: 30px 25px;
+  }
+
+  .contact-motto {
+    font-size: 24px;
+  }
+
+  .contact-description {
+    font-size: 17px;
+  }
+
+  .contact-row {
+    font-size: 15px;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+  border-top: 1px solid rgba(163, 149, 136, 0.15);
+  background: #FCF8EE;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: #CDB9A6;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.lightbox-caption {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .hero-section {
+    padding: 100px 24px 60px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .main-content {
+    padding: 60px 16px;
+  }
+
+  .section-card {
+    padding: 32px 24px;
+  }
+
+  .background-grid,
+  .experience-grid,
+  .expect-grid,
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-grid {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .image-gallery-2col {
+    grid-template-columns: 1fr;
+  }
+}
