@@ -575,7 +575,7 @@ body {
 }
 
 .contact-section {
-  position: relative;
+  position: center;
   overflow: hidden;
 
   min-height: 100vh;
@@ -585,7 +585,7 @@ body {
 
 .contact-content,
 .contact-info {
-  /*position: relative;*/
+  position: center;
   text-align: center;
   z-index: 2;
 
