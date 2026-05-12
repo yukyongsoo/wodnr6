@@ -602,11 +602,11 @@ body {
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
   padding: 55px 50px;
 
-  background: linear-gradient(135deg, #FFFCF5 0%, #F0EBDE 90%);
+  background: linear-gradient(135deg, #FCF8EE 0%, #F3EFE6 90%);
   /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  border: 1px solid #E8D7C2;
+  border: 1px solid #F6F2E8;
 }
 
 /* PRACTICE, NOT JUDGMENT */
