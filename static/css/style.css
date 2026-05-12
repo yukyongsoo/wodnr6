@@ -625,14 +625,14 @@ body {
   letter-spacing: -0.02em;
   font-weight: 400;
   color: #2E2E2E;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: block; /* 줄바꿈을 위해 block 설정 */
 }
 
 /* 서브 카피 */
 .contact-description {
   font-family: 'Noto Serif KR', serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   font-weight: 200;
   color: #2E2E2E;
