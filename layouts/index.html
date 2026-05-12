@@ -222,8 +222,8 @@
     <section id="contact" class="contact-section">
 		<div class="contact-content">
 			<p class="contact-eyebrow fade-in fade-in-delay-1">{{ .Params.contact.eyebrow }}</p>
-			<p class="contact-motto fade-in fade-in-delay-1 light-effect-text">{{ .Params.contact.motto }}</p>
-			<p class="contact-description">{{ .Params.contact.description }}</p>
+			<p class="contact-motto fade-in fade-in-delay-1 light-effect-text">{{ .Params.contact.motto | safeHTML }}</p>
+			<p class="contact-description">{{ .Params.contact.description | safeHTML }}</p>
 		</div>
 
 		<div class="contact-info">
