@@ -6,15 +6,15 @@
 
 body {
   min-height: 100vh;
-  background-color: #FAF7F0;
+  background-color: #F6F2E8;
   font-family: 'Noto Serif KR', Georgia, serif;
-  color: #2E2E2E;
+  color: #3B3A3C;
   overflow-x: hidden;
 }
 
 ::selection {
-  background: #FFDDC1;
-  color: #2E2E2E;
+  background: #F1DCD0;
+  color: #3B3A3C;
 }
 
 @keyframes fadeInUp {
@@ -42,20 +42,20 @@ body {
   right: 0;
   padding: 20px 48px;
   margin-bottom: 10px;
-  background: rgba(250, 247, 240, 0.95);
+  background: rgba(246, 242, 232, 0.95);
   backdrop-filter: blur(10px);
   z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #FDE2E4;
+  border-bottom: 1px solid #E8D7C2;
 }
 
 .nav-logo {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
   font-weight: 500;
-  color: #7D7871;
+  color: #A39588;
   letter-spacing: 1px;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .nav-link {
   position: relative;
-  color: #7D7871;
+  color: #A39588;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -76,7 +76,7 @@ body {
 }
 
 .nav-link:hover, .nav-link.active {
-  color: #FFDDC1;
+  color: #F1DCD0;
 }
 
 .nav-link::after {
@@ -86,7 +86,7 @@ body {
   left: 0;
   width: 0;
   height: 1px;
-  background: #FFDDC1;
+  background: #F1DCD0;
   transition: width 0.3s ease;
 }
 
@@ -100,7 +100,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 120px 48px 80px;
-  background: linear-gradient(180deg, #FAF7F0 0%, #FAF7F0 100%);
+  background: linear-gradient(180deg, #F6F2E8 0%, #F6F2E8 100%);
   position: relative;
   overflow: hidden;
 }
@@ -116,7 +116,7 @@ body {
   right: 10%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(255, 221, 193, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(241, 220, 208, 0.25) 0%, transparent 70%);
 }
 
 .decorative-circle-2 {
@@ -124,7 +124,7 @@ body {
   left: 5%;
   width: 200px;
   height: 200px;
-  background: radial-gradient(circle, rgba(253, 226, 228, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(232, 215, 194, 0.3) 0%, transparent 70%);
 }
 
 .hero-content {
@@ -138,7 +138,7 @@ body {
   margin: 20px auto 32px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid rgba(255, 221, 193, 0.3);
+  border: 3px solid rgba(241, 220, 208, 0.5);
   box-shadow: 0 8px 30px rgba(0,0,0,0.08);
   background: #FFFDF6;
 }
@@ -155,7 +155,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7D7871;
+  color: #CDB9A6;
   font-size: 12px;
 }
 
@@ -163,7 +163,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 15px;
   letter-spacing: 3px;
-  color: #7D7871;
+  color: #CDB9A6;
   margin-bottom: 24px;
   text-transform: uppercase;
 }
@@ -174,19 +174,20 @@ body {
   margin-bottom: 32px;
   line-height: 1.2;
   letter-spacing: -1px;
+  color: #3B3A3C;
 }
 
 .hero-title-sub {
   font-size: 28px;
   font-weight: 300;
-  color: #7D7871;
+  color: #A39588;
 }
 
 .hero-motto {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
   font-style: italic;
-  color: #7D7871;
+  color: #A39588;
   margin-bottom: 48px;
   line-height: 1.6;
 }
@@ -194,7 +195,7 @@ body {
 .hero-description {
   font-size: 17px;
   line-height: 2;
-  color: #7D7871;
+  color: #A39588;
   font-weight: 300;
   word-break: keep-all;
 }
@@ -202,7 +203,7 @@ body {
 .hero-divider {
   width: 1px;
   height: 60px;
-  background: linear-gradient(to bottom, transparent, #FFDDC1);
+  background: linear-gradient(to bottom, transparent, #F1DCD0);
   margin: 64px auto 0;
 }
 
@@ -218,19 +219,19 @@ body {
   padding: 48px;
   margin-bottom: 24px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  border: 1px solid #FDE2E4;
+  border: 1px solid #E8D7C2;
   transition: box-shadow 0.3s ease;
 }
 
 .section-card:hover {
-  box-shadow: 0 4px 20px rgba(125, 120, 113, 0.08);
+  box-shadow: 0 4px 20px rgba(163, 149, 136, 0.12);
 }
 
 .section-title {
   font-family: 'Cormorant Garamond', serif;
   font-size: 14px;
   letter-spacing: 2px;
-  color: #7D7871;
+  color: #A39588;
   margin-bottom: 32px;
   text-transform: uppercase;
 }
@@ -244,7 +245,7 @@ body {
 
 .highlight {
   font-weight: 500;
-  color: #FFDDC1;
+  color: #F1DCD0;
 }
 
 .info-box {
@@ -257,7 +258,7 @@ body {
 .info-text {
   font-size: 15px;
   line-height: 1.9;
-  color: #7D7871;
+  color: #CDB9A6;
   font-style: italic;
 }
 
@@ -265,6 +266,7 @@ body {
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 24px;
+  color: #3B3A3C;
 }
 
 .tag-container {
@@ -277,8 +279,8 @@ body {
 .tag {
   display: inline-block;
   padding: 6px 14px;
-  background: #FDE2E4;
-  color: #7D7871;
+  background: #E8D7C2;
+  color: #A39588;
   font-size: 13px;
   border-radius: 20px;
 }
@@ -286,28 +288,28 @@ body {
 .approach-card {
   padding: 32px;
   background: linear-gradient(135deg, #FFFDF6 0%, #FFFDF6 100%);
-  border-left: 3px solid #FFDDC1;
+  border-left: 3px solid #F1DCD0;
   margin-bottom: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .approach-card:hover {
   transform: translateX(4px);
-  box-shadow: -4px 4px 20px rgba(255, 221, 193, 0.2);
+  box-shadow: -4px 4px 20px rgba(241, 220, 208, 0.35);
 }
 
 .approach-title {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 16px;
-  color: #7D7871;
+  color: #A39588;
   text-align: center;
 }
 
 .approach-text {
   font-size: 15px;
   line-height: 1.9;
-  color: #7D7871;
+  color: #A39588;
   margin-bottom: 20px;
 }
 
@@ -332,7 +334,7 @@ body {
   overflow: hidden;
   border-radius: 4px;
   cursor: pointer;
-  background: #FDE2E4;
+  background: #E8D7C2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -361,8 +363,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #FDE2E4 0%, #FFFDF6 100%);
-  color: #7D7871;
+  background: linear-gradient(135deg, #E8D7C2 0%, #FFFDF6 100%);
+  color: #A39588;
   font-size: 11px;
   text-align: center;
   padding: 12px;
@@ -394,7 +396,7 @@ body {
 .background-subtitle {
   font-size: 13px;
   letter-spacing: 1px;
-  color: #7D7871;
+  color: #A39588;
   margin-bottom: 24px;
   text-transform: uppercase;
 }
@@ -403,7 +405,7 @@ body {
   position: relative;
   padding-left: 24px;
   padding-bottom: 24px;
-  border-left: 1px solid #FDE2E4;
+  border-left: 1px solid #E8D7C2;
 }
 
 .timeline-item::before {
@@ -413,7 +415,7 @@ body {
   top: 6px;
   width: 7px;
   height: 7px;
-  background: #FFDDC1;
+  background: #F1DCD0;
   border-radius: 50%;
 }
 
@@ -425,11 +427,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 4px;
+  color: #3B3A3C;
 }
 
 .timeline-subtitle {
   font-size: 14px;
-  color: #7D7871;
+  color: #CDB9A6;
 }
 
 .experience-section {
@@ -447,20 +450,20 @@ body {
 
 .experience-label {
   font-size: 12px;
-  color: #7D7871;
+  color: #A39588;
   font-weight: 500;
   margin-bottom: 12px;
 }
 
 .experience-label-prev {
-  color: #7D7871;
+  color: #CDB9A6;
   margin-top: 12px;
 }
 
 .experience-text {
   font-size: 15px;
   line-height: 1.8;
-  color: #7D7871;
+  color: #A39588;
 }
 
 .experience-item {
@@ -475,7 +478,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #7D7871;
+  color: #A39588;
   text-decoration: none;
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-weight: 400;
@@ -508,21 +511,21 @@ body {
 .publications-text {
   font-size: 14px;
   line-height: 1.8;
-  color: #7D7871;
+  color: #A39588;
 }
 
 .publications-ref {
   font-size: 13px;
-  color: #7D7871;
+  color: #CDB9A6;
 }
 
 .section-card-dark {
-  background: linear-gradient(135deg, #FFDDC1 0%, #FFDDC1 100%);
-  color: #2E2E2E;
+  background: linear-gradient(135deg, #F1DCD0 0%, #F1DCD0 100%);
+  color: #3B3A3C;
 }
 
 .section-title-light {
-  color: #7D7871;
+  color: #A39588;
 }
 
 .expect-grid {
@@ -541,7 +544,7 @@ body {
 
 .reviews-subtitle {
   font-size: 15px;
-  color: #7D7871;
+  color: #A39588;
   text-align: center;
   font-style: italic;
   margin-bottom: 12px;
@@ -549,7 +552,7 @@ body {
 
 .reviews-note {
   font-size: 13px;
-  color: #7D7871;
+  color: #CDB9A6;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -563,17 +566,17 @@ body {
   padding: 28px 32px;
   background: #FFFDF6;
   border-radius: 2px;
-  border-left: 3px solid #FDE2E4;
+  border-left: 3px solid #E8D7C2;
 }
 
 .review-card-highlight {
-  border-left: 3px solid #FFDDC1;
+  border-left: 3px solid #F1DCD0;
 }
 
 .review-text {
   font-size: 15px;
   line-height: 1.9;
-  color: #7D7871;
+  color: #A39588;
 }
 
 .contact-section {
@@ -599,11 +602,11 @@ body {
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
   padding: 55px 50px;
 
-  background: linear-gradient(135deg, #FFFCF5 0%, #F7F4EE 90%);
+  background: linear-gradient(135deg, #FFFCF5 0%, #F0EBDE 90%);
   /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  border: 1px solid #FDFAF3;
+  border: 1px solid #E8D7C2;
 }
 
 /* PRACTICE, NOT JUDGMENT */
@@ -612,11 +615,11 @@ body {
   font-size: 8px;
   font-weight: 300;
   letter-spacing: 0.12em;
-  color: #7D7871;
+  color: #A39588;
 
   /* 밑줄 추가 및 여백 설정 */
   display: inline-block;      /* 밑줄이 글자 길이만큼만 생기게 함 */
-  border-bottom: 0.7px solid #7D7871; /* 밑줄 두께와 색상 */
+  border-bottom: 0.7px solid #A39588; /* 밑줄 두께와 색상 */
   padding-bottom: 5px;        /* 문구와 밑줄 사이의 여백 */
   margin-bottom: 15px;
 }
@@ -628,7 +631,7 @@ body {
   line-height: 1.7;
   letter-spacing: -0.02em;
   font-weight: 400;
-  color: #2E2E2E;
+  color: #3B3A3C;
   margin-bottom: 21px;
   display: block; /* 줄바꿈을 위해 block 설정 */
 }
@@ -639,7 +642,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   font-weight: 200;
-  color: #2E2E2E;
+  color: #3B3A3C;
   opacity: 0.82;
   display: block; /* 한 줄을 다 차지하게 해서 왼쪽 정렬이 먹히게 함 */
 }
@@ -655,7 +658,7 @@ body {
   width: 100px;
   height: 1px;
 
-  background: rgba(253,226,228,1);
+  background: #E8D7C2;
 
   margin: 0 auto 100px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
 }
@@ -663,7 +666,7 @@ body {
 .contact-label {
   font-size: 15px;
   line-height: 2;
-  color: #7D7871;
+  color: #A39588;
   margin-bottom: 10px;
 }
 
@@ -682,7 +685,7 @@ body {
   gap: 12px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 15px;
-  color: #7D7871;
+  color: #A39588;
   width: 100%;
 }
 
@@ -724,13 +727,13 @@ body {
 .footer {
   text-align: center;
   padding: 40px;
-  border-top: 1px solid rgba(125, 120, 113, 0.1);
-  background: #FAF7F0;
+  border-top: 1px solid rgba(163, 149, 136, 0.15);
+  background: #F6F2E8;
 }
 
 .footer-text {
   font-size: 13px;
-  color: #7D7871;
+  color: #CDB9A6;
 }
 
 .lightbox {
