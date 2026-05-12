@@ -652,24 +652,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .contact-row {
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   gap: 12px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 15px;
   color: #7D7871;
+  width: 100%;
 }
-
-/*.contact-icon {
-  color: #FFDDC1;
-  opacity: 0.8;
-  display: inline-flex;
-  align-items: center;
-}*/
 
 /* 모바일 */
 @media (max-width: 768px) {
