@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  background-color: #F6F2E8;
+  background-color: #FCF8EE;
   font-family: 'Noto Serif KR', Georgia, serif;
   color: #3B3A3C;
   overflow-x: hidden;
@@ -55,7 +55,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
   font-weight: 500;
-  color: #A39588;
+  color: #3B3A3C;
   letter-spacing: 1px;
 }
 
