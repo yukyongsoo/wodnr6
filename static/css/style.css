@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-:root {
-  --mobile-nav-height: 140px;
-}
-
 body {
   min-height: 100vh;
   background-color: #FAF7F0;
@@ -45,6 +41,7 @@ body {
   left: 0;
   right: 0;
   padding: 20px 48px;
+  margin-bottom: 10px;
   background: rgba(250, 247, 240, 0.95);
   backdrop-filter: blur(10px);
   z-index: 100;
@@ -690,10 +687,6 @@ body {
 
 /* 모바일 */
 @media (max-width: 768px) {
-  .hero-section {
-    padding-top: calc(var(--mobile-nav-height) + 40px);
-  }
-  
   .contact-section {
     text-align: center;
   }
