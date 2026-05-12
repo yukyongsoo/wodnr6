@@ -196,6 +196,7 @@ body {
   line-height: 2;
   color: #7D7871;
   font-weight: 300;
+  word-break: keep-all;
 }
 
 .hero-divider {
