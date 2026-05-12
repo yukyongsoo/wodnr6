@@ -603,8 +603,8 @@ body {
 
   /* 밑줄 추가 및 여백 설정 */
   display: inline-block;      /* 밑줄이 글자 길이만큼만 생기게 함 */
-  border-bottom: 1px solid #7D7871; /* 밑줄 두께와 색상 */
-  padding-bottom: 8px;        /* 3번 질문: 문구와 밑줄 사이의 여백 */
+  border-bottom: 0.8px solid #7D7871; /* 밑줄 두께와 색상 */
+  padding-bottom: 5px;        /* 3번 질문: 문구와 밑줄 사이의 여백 */
 }
 
 /* 메인 카피 */
@@ -616,7 +616,7 @@ body {
   font-weight: 500;
   color: #2E2E2E;
   max-width: 760px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 /* 서브 카피 */
