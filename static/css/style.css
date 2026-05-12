@@ -597,7 +597,7 @@ body {
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
   padding: 50px 45px;
 
-  background: linear-gradient(135deg, #FDFAF3 0%, #E9E5D4 100%);
+  background: linear-gradient(135deg, #FDFAF3 0%, #FAF7F0 100%);
   /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
@@ -608,7 +608,7 @@ body {
 .contact-eyebrow {
   font-family: 'Cormorant Garamond', serif;
   font-size: 8px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.12em;
   color: #7D7871;
 
