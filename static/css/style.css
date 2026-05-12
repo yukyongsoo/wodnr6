@@ -596,7 +596,7 @@ body {
 /* PRACTICE, NOT JUDGMENT */
 .contact-eyebrow {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 14px;
+  font-size: 10px;
   letter-spacing: 0.12em;
   color: #7D7871;
   margin-bottom: 20px;
@@ -610,7 +610,7 @@ body {
 /* 메인 카피 */
 .contact-motto {
   font-family: 'Noto Serif KR', serif;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 2;
   letter-spacing: -0.02em;
   font-weight: 500;
@@ -622,7 +622,7 @@ body {
 /* 서브 카피 */
 .contact-description {
   font-family: 'Noto Serif KR', serif;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 2;
   font-weight: 300;
   color: #2E2E2E;
@@ -685,11 +685,11 @@ body {
   }
 
   .contact-motto {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .contact-description {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .contact-row {
