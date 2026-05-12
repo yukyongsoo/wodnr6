@@ -478,7 +478,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #A39588;
+  color: #3B3A3C;
   text-decoration: none;
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-weight: 400;
@@ -499,6 +499,7 @@ body {
 .experience-text .small-text {
   font-size: 13px;
   display: block;
+  color: #CDB9A6;
 }
 
 .publications-box {
