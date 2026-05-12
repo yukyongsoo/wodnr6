@@ -575,7 +575,7 @@ body {
 }
 
 .contact-section {
-  position: center;
+  position: relative;
   overflow: hidden;
 
   min-height: 100vh;
@@ -585,7 +585,7 @@ body {
 
 .contact-content,
 .contact-info {
-  position: center;
+  position: relative;
   text-align: center;
   z-index: 2;
 
@@ -627,6 +627,8 @@ body {
 /* 연락 영역 */
 .contact-info {
   margin-top: 140px;
+  align-items: center; /* 가로 방향 가운데 정렬 */
+  text-align: center;  /* 텍스트 내용 가운데 정렬 */
 }
 
 .contact-divider {
@@ -635,16 +637,13 @@ body {
 
   background: rgba(125,120,113,0.25);
 
-  margin-bottom: 40px;
+  margin: 0 auto 40px; /* margin: 0 auto가 핵심 (좌우 여백 자동) */
 }
 
 .contact-label {
   font-size: 15px;
-
   line-height: 1.8;
-
   color: #7D7871;
-
   margin-bottom: 28px;
 }
 
@@ -652,7 +651,6 @@ body {
 .contact-email {
   display: flex;
   flex-direction: column;
-
   gap: 20px;
 }
 
@@ -665,12 +663,12 @@ body {
   color: #7D7871;
 }
 
-.contact-icon {
+/*.contact-icon {
   color: #FFDDC1;
   opacity: 0.8;
   display: inline-flex;
   align-items: center;
-}
+}*/
 
 /* 모바일 */
 @media (max-width: 768px) {
