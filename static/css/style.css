@@ -690,32 +690,25 @@ body {
 .contact-row {
   display: flex;
   align-items: center;
-
   gap: 12px;
-
   font-family: 'Cormorant Garamond', serif;
-
-  font-size: 22px;
-
+  font-size: 15px;
   color: #7D7871;
 }
 
 .contact-icon {
   color: #FFDDC1;
-
   opacity: 0.8;
-
   display: inline-flex;
   align-items: center;
 }
 
 /* 모바일 */
 @media (max-width: 768px) {
-
   .contact-section {
     padding: 120px 0;
   }
-
+  
   .contact-content,
   .contact-info {
     padding-left: 24px;
@@ -723,15 +716,15 @@ body {
   }
 
   .contact-motto {
-    font-size: 52px;
-  }
-
-  .contact-description {
     font-size: 24px;
   }
 
+  .contact-description {
+    font-size: 22px;
+  }
+
   .contact-row {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
