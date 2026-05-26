@@ -702,7 +702,7 @@ body {
   
   .contact-content,
   .contact-info {
-    padding-left: 20px;  /* 5px → 20px, 변경 후 삭제할 주석*/
+    padding-left: 20px;
     padding-right: 20px;
   }
   
@@ -710,8 +710,9 @@ body {
   display: block;
   padding: 30px 25px 30px 40px;
   width: calc(100% + 40px);
-  margin-left: -20px;
-  margin-right: -20px;
+  /*margin-left: -20px;
+  margin-right: -20px;*/
+  margin: 0 auto 0 15%;
 }
 
   .contact-motto {
