@@ -707,8 +707,12 @@ body {
   }
   
   .contact-text-group {
+  display: block;
   padding: 30px 25px;
-  }
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  margin-right: -20px;
+}
 
   .contact-motto {
     font-size: 24px;
