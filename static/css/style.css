@@ -702,8 +702,8 @@ body {
   
   .contact-content,
   .contact-info {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;  /* 5px → 20px, 변경 후 삭제할 주석*/
+    padding-right: 20px;
   }
   
   .contact-text-group {
