@@ -710,9 +710,8 @@ body {
   display: block;
   padding: 30px 25px 30px 40px;
   width: calc(100% + 40px);
-  /*margin-left: -20px;
-  margin-right: -20px;*/
-  margin: 0 auto 0 15%;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
   .contact-motto {
