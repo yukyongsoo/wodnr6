@@ -604,10 +604,9 @@ body {
   padding: 55px 50px;
 
   background: linear-gradient(135deg, #FFFBF1 0%, #FCF8EE 90%);
-  /*background: rgba(253, 250, 243, 0.4);*/
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  border: 1px solid #FFFBF1;
+  /*border: 1px solid #FFFBF1;*/
 }
 
 /* PRACTICE, NOT JUDGMENT */
