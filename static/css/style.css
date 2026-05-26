@@ -605,7 +605,7 @@ body {
 
   background: linear-gradient(135deg, #FFFBF1 0%, #FCF8EE 90%);
   border-radius: 2px;
-  box-shadow: 4px 4px 16px rgba(0,0,0,0.04);
+  box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.04);
 }
 
 /* PRACTICE, NOT JUDGMENT */
