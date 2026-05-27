@@ -601,7 +601,7 @@ body {
   display: inline-block; /* 내용물 너비만큼만 박스 크기 설정 */
   text-align: left;      /* 박스 내부의 모든 글자는 왼쪽 정렬 */
   margin: 0 auto;        /* 박스 덩어리 자체를 화면 가운데로 */
-  padding: 55px 50px;
+  padding: 55px 80px;
 
   background: linear-gradient(135deg, #FFFBF1 0%, #FCF8EE 90%);
   border-radius: 2px;
